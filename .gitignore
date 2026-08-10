@@ -1,0 +1,9 @@
+#Dont commit raw data dumps
+data/raw/*.csv
+
+#OS junk files  
+.DS_Store 
+Thumbs.db  
+
+#POWER BI temp files 
+*.pbix.bak 
