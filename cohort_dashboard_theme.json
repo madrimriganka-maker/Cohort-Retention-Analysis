@@ -1,0 +1,118 @@
+{
+  "name": "Cohort Retention Dark",
+  "dataColors": [
+    "#8B7FD6",
+    "#6C5CE7",
+    "#A29BFE",
+    "#4834D4",
+    "#B2A4FF",
+    "#5F4B8B",
+    "#D1C4E9",
+    "#7C6BC2"
+  ],
+  "background": "#0F0E17",
+  "foreground": "#F2F2F2",
+  "tableAccent": "#8B7FD6",
+  "good": "#6C5CE7",
+  "neutral": "#B2A4FF",
+  "bad": "#4A4458",
+  "maximum": "#A29BFE",
+  "center": "#6C5CE7",
+  "minimum": "#2D2A3A",
+  "null": "#4A4458",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#16151F" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#0F0E17" } }
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#F2F2F2" } },
+            "background": { "solid": { "color": "#16151F" } },
+            "bold": true,
+            "fontSize": 12
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#E0E0E0" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#F2F2F2" } },
+            "fontSize": 28,
+            "bold": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#A9A4C7" } },
+            "fontSize": 12
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#1C1B29" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "textBox": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0F0E17" } },
+            "transparency": 100
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0F0E17" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontSize": 20,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F2F2F2"
+    },
+    "header": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#A29BFE"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#E0E0E0"
+    }
+  }
+}
